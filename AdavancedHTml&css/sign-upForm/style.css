@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body {
+  color:#1f2937;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 35%;
+  background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+  padding: 15px 0;
+width: 100%;
+}
+.logo-img {
+  height: 60px; /* Resize the logo element */
+  width: auto;
+}
+
+.logo-text {
+  font-family: sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  margin-left: 10px;
+}
+.main-content {
+  width: 60%;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro-text{
+  padding: 40px 60px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  max-width: 750px;
+  line-height:1.5;
+  color:#1f2937;
+}
+
+.intro-text p {
+  margin-bottom: 0;
+}
+.intro-text p:last-child {
+  margin-bottom: 0;
+}
+.credit {
+  color: white;
+  text-align: center;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+.credit a {
+  color:white;
+}
+/*form vontainer*/
+
+.form-container {
+  background-color: white;
+  padding: 30px 60px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size:1.4rem;
+  color:#111827;
+}
+.form-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.input-group input {
+  width: 200px;
+  padding: 6px 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-size:0.95;
+  outline:none;
+}
+.input-group input:focus{
+  border-color:#2563eb;
+  box-shadow: 0  0 0 1px #2563eb;
+}
+
+/* Password error state (red border from reference image) */
+.input-group input.error {
+  border-color: #b91c1c;
+}
+.action-container {
+  padding: 30px 60px;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  padding: 12px 48px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+}
+button:hover{
+background-color:#596d48;
+}
+.action-container p a {
+  color: #596d48;
+  font-weight: bold;
+  text-decoration: none;
+}
+.action-container p a:hover{
+  text-decoration: underline;
+}
