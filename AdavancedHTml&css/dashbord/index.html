@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashbord.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <i class="fa-solid fa-table-cells-large"></i>
+        <span>Dashboard</span>
+      </div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#"><i class="fa-solid fa-address-card"></i> Profile</a></li>
+          <li><a href="#"><i class="fa-solid fa-message"></i> Messages</a></li>
+          <li><a href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+          <li><a href="#"><i class="fa-solid fa-list-check"></i> Tasks</a></li>
+          <li><a href="#"><i class="fa-solid fa-people-group"></i> Communities</a></li>
+        </ul>
+        <ul class="nav-bottom">
+          <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+          <li><a href="#"><i class="fa-solid fa-circle-question"></i> Support</a></li>
+          <li><a href="#"><i class="fa-solid fa-shield-halved"></i> Privacy</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="header">
+        <div class="header-top">
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search...">
+          </div>
+          <div class="user-profile">
+            <i class="fa-regular fa-bell notification-icon"></i>
+            <div class="avatar sm"><i class="fa-solid fa-cat"></i></div>
+            <span class="user-name">Morgan Oakley</span>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="greeting">
+            <div class="avatar lg"><i class="fa-solid fa-cat"></i></div>
+            <div class="greeting-text">
+              <span class="small-text">Hi there,</span>
+              <h2>Morgan Oakley (@morgan)</h2>
+            </div>
+          </div>
+          <div class="action-buttons">
+            <button class="btn">New</button>
+            <button class="btn">Upload</button>
+            <button class="btn">Share</button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Dashboard Content Grid -->
+      <div class="dashboard-grid">
+        <!-- Projects Section -->
+        <section class="projects-section">
+          <h3>Your Projects</h3>
+          <div class="cards-grid">
+            <div class="card">
+              <h4>Super Cool Project</h4>
+              <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+              <div class="card-icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-eye"></i>
+                <i class="fa-solid fa-code-branch"></i>
+              </div>
+            </div>
+            <div class="card">
+              <h4>Less Cool Project</h4>
+              <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+              <div class="card-icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-eye"></i>
+                <i class="fa-solid fa-code-branch"></i>
+              </div>
+            </div>
+            <div class="card">
+              <h4>Impossible App</h4>
+              <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+              <div class="card-icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-eye"></i>
+                <i class="fa-solid fa-code-branch"></i>
+              </div>
+            </div>
+            <div class="card">
+              <h4>Easy Peasy App</h4>
+              <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+              <div class="card-icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-eye"></i>
+                <i class="fa-solid fa-code-branch"></i>
+              </div>
+            </div>
+            <div class="card">
+              <h4>Ad Blocker</h4>
+              <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+              <div class="card-icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-eye"></i>
+                <i class="fa-solid fa-code-branch"></i>
+              </div>
+            </div>
+            <div class="card">
+              <h4>Money Maker</h4>
+              <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+              <div class="card-icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-eye"></i>
+                <i class="fa-solid fa-code-branch"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sidebar Info Sections -->
+        <aside class="right-sidebar">
+          <!-- Announcements -->
+          <div class="announcements-section">
+            <h3>Announcements</h3>
+            <div class="side-card">
+              <div class="item">
+                <h5>Site Maintenance</h5>
+                <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+              </div>
+              <div class="item">
+                <h5>Community Share Day</h5>
+                <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+              </div>
+              <div class="item">
+                <h5>Updated Privacy Policy</h5>
+                <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Trending -->
+          <div class="trending-section">
+            <h3>Trending</h3>
+            <div class="side-card trending-card">
+              <div class="user-item">
+                <div class="avatar sm avatar-pink"><i class="fa-solid fa-dog"></i></div>
+                <div>
+                  <h6>@tegan</h6>
+                  <p>World Peace Builder</p>
+                </div>
+              </div>
+              <div class="user-item">
+                <div class="avatar sm"><i class="fa-solid fa-cat"></i></div>
+                <div>
+                  <h6>@morgan</h6>
+                  <p>Super Cool Project</p>
+                </div>
+              </div>
+              <div class="user-item">
+                <div class="avatar sm avatar-orange"><i class="fa-solid fa-robot"></i></div>
+                <div>
+                  <h6>@kendall</h6>
+                  <p>Life Changing App</p>
+                </div>
+              </div>
+              <div class="user-item">
+                <div class="avatar sm avatar-green"><i class="fa-solid fa-ghost"></i></div>
+                <div>
+                  <h6>@alex</h6>
+                  <p>No Traffic Maker</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
